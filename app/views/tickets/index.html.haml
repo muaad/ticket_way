@@ -1,0 +1,31 @@
+%h1 Listing tickets
+
+%table
+  %thead
+    %tr
+      %th Event
+      %th Account
+      %th Invoice no
+      %th User
+      %th Paid for
+      %th Active
+      %th
+      %th
+      %th
+
+  %tbody
+    - @tickets.each do |ticket|
+      %tr
+        %td= ticket.event
+        %td= ticket.account
+        %td= ticket.invoice_no
+        %td= ticket.user
+        %td= ticket.paid_for
+        %td= ticket.active
+        %td= link_to 'Show', ticket
+        %td= link_to 'Edit', edit_ticket_path(ticket)
+        %td= link_to 'Destroy', ticket, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Ticket', new_ticket_path

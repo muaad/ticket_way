@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: 
+  account_id: 
+  invoice_no: MyString
+  user_id: 
+  paid_for: false
+  active: false
+
+two:
+  event_id: 
+  account_id: 
+  invoice_no: MyString
+  user_id: 
+  paid_for: false
+  active: false

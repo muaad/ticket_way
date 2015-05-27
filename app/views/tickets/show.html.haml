@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%p
+  %b Event:
+  = @ticket.event
+%p
+  %b Account:
+  = @ticket.account
+%p
+  %b Invoice no:
+  = @ticket.invoice_no
+%p
+  %b User:
+  = @ticket.user
+%p
+  %b Paid for:
+  = @ticket.paid_for
+%p
+  %b Active:
+  = @ticket.active
+
+= link_to 'Edit', edit_ticket_path(@ticket)
+\|
+= link_to 'Back', tickets_path
