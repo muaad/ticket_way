@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  location: MyString
+  latitude: 1.5
+  longitude: 1.5
+  start_time: 2015-05-27 22:47:30
+  end_time: 2015-05-27 22:47:30
+  is_free: false
+  capacity: 1
+  sold_out: false
+  public: false
+  category_id: 
+  account_id: 
+
+two:
+  name: MyString
+  description: MyText
+  location: MyString
+  latitude: 1.5
+  longitude: 1.5
+  start_time: 2015-05-27 22:47:30
+  end_time: 2015-05-27 22:47:30
+  is_free: false
+  capacity: 1
+  sold_out: false
+  public: false
+  category_id: 
+  account_id: 

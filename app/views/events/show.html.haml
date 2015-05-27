@@ -1,0 +1,45 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @event.name
+%p
+  %b Description:
+  = @event.description
+%p
+  %b Location:
+  = @event.location
+%p
+  %b Latitude:
+  = @event.latitude
+%p
+  %b Longitude:
+  = @event.longitude
+%p
+  %b Start time:
+  = @event.start_time
+%p
+  %b End time:
+  = @event.end_time
+%p
+  %b Is free:
+  = @event.is_free
+%p
+  %b Capacity:
+  = @event.capacity
+%p
+  %b Sold out:
+  = @event.sold_out
+%p
+  %b Public:
+  = @event.public
+%p
+  %b Category:
+  = @event.category
+%p
+  %b Account:
+  = @event.account
+
+= link_to 'Edit', edit_event_path(@event)
+\|
+= link_to 'Back', events_path
