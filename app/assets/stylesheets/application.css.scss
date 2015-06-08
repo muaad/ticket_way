@@ -14,3 +14,17 @@
  *= require_tree .
  *= require_self
  */
+
+#fixed-menu, .hero {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#hero {
+	background: asset-url('hero-bg.jpg');
+}
+
+.swag {
+  background: asset-url('wwd-bg.jpg') no-repeat center center;
+}
