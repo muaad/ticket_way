@@ -28,3 +28,37 @@
 .swag {
   background: asset-url('wwd-bg.jpg') no-repeat center center;
 }
+
+.site-content {
+  margin-top: 20px;
+  min-height: 626px;
+}
+
+.pn {
+  height: 250px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mb {
+	margin-bottom: 25px;
+}
+
+.white-panel {
+  text-align: center;
+  background: #ffffff;
+}
+
+.white-panel .white-header {
+  background: #f3f3f3;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.white-panel .small {
+  font-size: 10px;
+  color: #ccd1d9;
+}
+
+.mt {
+  margin-top: 25px;
+}
